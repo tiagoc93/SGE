@@ -1,6 +1,4 @@
 from django.db import models
-
-from suppliers.models import Supplier
 from products.models import Product
 
 class Outflow(models.Model):
